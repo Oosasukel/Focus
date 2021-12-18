@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0.5rem;
+}
+
+#title {
+  text-align: center;
+  color: #444;
+
+  margin-bottom: 0.5rem;
+}
+
+#title.green {
+  color: #0b4;
+}
+
+#title.blue {
+  color: #08f;
+}
+
+#title.gray {
+  color: #444;
+}
+
+fieldset {
+  border: 1px solid gray;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+
+  margin-bottom: 0.5rem;
+}
+
+fieldset:last-of-type {
+  margin-bottom: 0;
+}
+
+fieldset legend {
+  padding: 0 0.5rem;
+}
+
+fieldset p {
+  white-space: nowrap;
+}
+
+#actions button {
+  border: none;
+  background: #000;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+#actions button.green {
+  background-color: #0b4;
+}
+
+#actions button.orange {
+  background-color: #f70;
+}
+
+#actions button.blue {
+  background-color: #08f;
+}
+
+#actions button.red {
+  background-color: #e30;
+}
+
+#config p input {
+  width: 1.5rem;
+  text-align: center;
+  border: none;
+}

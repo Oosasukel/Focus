@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Focus",
+  "description": "this extension will help you to count your focus",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "./icon.png",
+    "default_popup": "./popup/index.html"
+  },
+  "permissions": ["notifications", "background", "storage", "alarms"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}

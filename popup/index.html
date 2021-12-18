@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Focus</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 id="title" class="blue">Focus</h1>
+
+    <fieldset id="actions">
+      <legend>Actions</legend>
+
+      <button id="start-focus" class="blue">Start Focus</button>
+      <button id="start-free-time" class="green">Start Free Time</button>
+      <button id="clear" class="red">Clear All</button>
+    </fieldset>
+
+    <fieldset id="my-free-time">
+      <legend>Time</legend>
+
+      <p>
+        Focus: <strong><span id="focus-time">0</span> minutes</strong>
+      </p>
+      <p>
+        Free Time: <strong><span id="free-time">0</span> minutes</strong>
+      </p>
+    </fieldset>
+
+    <fieldset id="config">
+      <legend>Configurations</legend>
+
+      <p>
+        Every <input type="text" value="0" id="focus-input" /> minutes of
+        <strong>focus</strong>, I gain
+        <input type="text" value="0" id="rest-input" /> minutes of
+        <strong>rest</strong> and
+        <input type="text" value="0" id="fun-input" /> minutes for
+        <strong>fun</strong>.
+      </p>
+    </fieldset>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
